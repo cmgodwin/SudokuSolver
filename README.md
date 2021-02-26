@@ -1,7 +1,7 @@
 # SudokuSolver
 This is a program written in Java that solves sudoku puzzles by brute force via backtracking. [This wikipedia article](https://en.wikipedia.org/wiki/Sudoku_solving_algorithms) is nice for comparing the different types of sudoku solving algorithms.
 
-![alt text](https://github.com/cmgodwin/SudokuSolver/blob/main/wikipedia_puzzles/image.jpg?raw=true)
+![](https://github.com/cmgodwin/SudokuSolver/blob/main/wikipedia_puzzles/easy_puzzle_start.png?raw=true)
 
 The three files that constitute the code are in the sudoku folder, and the other file is an executable if you want to try out the program. All of the Java files are thoroughly commented for those who are curious about how the code works.
 
