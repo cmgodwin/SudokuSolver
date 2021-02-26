@@ -1,7 +1,7 @@
 # SudokuSolver
 This is a program written in Java that solves sudoku puzzles by brute force via backtracking. 
 
-The three files that constitute the code are in the sudoku folder, and the other file is an executable for those who want to try out the program. All of the Java files are thoroughly commented for those who are curious about how the code works.
+The three files that constitute the code are in the sudoku folder, and the other file is an executable if you want to try out the program. All of the Java files are thoroughly commented for those who are curious about how the code works.
 
 The files in the sudoku folder are:
   - SudokuSolverPanel.java
