@@ -8,8 +8,9 @@ About the project files in the sudoku folder:
   - SudokuSquare.java -- consists of a single class to represent each square in the 9x9 puzzle. The square objects carry useful information that helps the algorithm backtrack effectively.
   - SudokuSolver.java -- displays the SudokuSolverPanel object and runs the program.
 
-<img src="https://github.com/cmgodwin/SudokuSolver/blob/main/wikipedia_puzzles/easy_puzzle_start.png?raw=true" width="375" height="395"> <img src="https://github.com/cmgodwin/SudokuSolver/blob/main/wikipedia_puzzles/easy_puzzle_finish.png?raw=true" width="375" height="433">
+<img src="https://github.com/cmgodwin/SudokuSolver/blob/main/wikipedia_puzzles/easy_puzzle_start.png?raw=true" width="375" height="395"><img src="https://github.com/cmgodwin/SudokuSolver/blob/main/wikipedia_puzzles/hard_puzzle_start.png?raw=true" width="375" height="395">
 
+<img src="https://github.com/cmgodwin/SudokuSolver/blob/main/wikipedia_puzzles/easy_puzzle_finish.png?raw=true" width="375" height="433">
 
 
 
