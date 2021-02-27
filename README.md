@@ -15,6 +15,8 @@ In [the aforementioned wikipedia article](https://en.wikipedia.org/wiki/Sudoku_s
 
 <img src="https://github.com/cmgodwin/SudokuSolver/blob/main/wikipedia_puzzles/easy_puzzle_finish.png?raw=true" width="400" height="462"><img src="https://github.com/cmgodwin/SudokuSolver/blob/main/wikipedia_puzzles/hard_puzzle_finish.png?raw=true" width="400" height="462">
 
+We have a ~0.008s execution time for the normal puzzle and an ~8.9s execution for the more stubborn one. The easiest way to understand the significant increase in difficulty for the algorithm with the harder puzzle is by looking at the top left number. With a '9' in the top left, the algorithm has to backtrack all the way to the initial square 8 times, maximizing the number of iterations needed to solve the puzzle (this is also why the 9 is followed by 8-7-6-5-4-3-2-1 on the top row, taking advantage of the depth-first structure). The most intuitive fix for this would be to randomize the order in which the squares are processed, utilizing a doubly-linked list structure of squares with more index tracking. I did not implement this here, but may include it in the future.
+
 
 
 
